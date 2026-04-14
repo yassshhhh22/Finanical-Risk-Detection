@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter_runtime/
+
+# Local tool/cache folders
+.kaggle/
+.uv-cache/
+.claude/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Large raw dataset (keep notes, ignore full data tables)
+data/home_credit_full/
+data/nigerian_bnpl_full.parquet
+
+# Generated ML artifacts
+artifacts/processed/
+artifacts/models/
+artifacts/raw_checks/
+artifacts/metrics/
+artifacts/plots/
+
+# Generated report artifacts (keep markdown tracked)
+reports/*.csv
+reports/*.png
+reports/stage9_manifest.json
+
+# Share/export bundles
+team_share.zip
+stage5_gpu_share.zip
+
+# Do not push share folder at all
+share/
